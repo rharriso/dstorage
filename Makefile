@@ -13,3 +13,7 @@ react-dev:
 .PHONY: truffle-build
 truffle-build:
 	truffle build	
+
+.PHONY: test
+test:
+	truffle test
